@@ -8,7 +8,16 @@ set -sg escape-time 10
 set-option -ga terminal-overrides ",xterm-256color:Tc" 
 ```
 
-
+```
+sudo apt update
+sudo apt install -y python3 python2.7 ruby ruby-dev wget
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+python2.7 get-pip.py
+python2.7 -m pip install virtualenv
+mkdir -p $HOME/nvim-venvs/py2.7-virtualenv
+mkdir -p $HOME/nvim-venvs/py3-venv
+python2.7 -m virtualenv
+```
 
 Install neovim:
 ```
