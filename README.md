@@ -1,4 +1,5 @@
 # neovim-configuration
+## My personal neovim install script and configuration.
 
 Add this to `~/.tmux.conf`:
 ```
