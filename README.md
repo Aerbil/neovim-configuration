@@ -18,6 +18,6 @@ Copy and run:
 ```
 wget https://github.com/Aerbil/neovim-configuration/raw/main/install-neovim.sh
 chmod +x install-neovim.sh
-install-neovim.sh
+./install-neovim.sh
 rm install-neovim.sh
 ```
