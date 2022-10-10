@@ -12,7 +12,7 @@ python -m pip install neovim
 deactivate
 
 source ~/nvim-venvs/py3-venv/bin/activate
-python -m pip install neovim
+python -m pip install pynvim
 deactivate
 
 wget https://github.com/Aerbil/neovim-configuration/raw/main/init.vim
