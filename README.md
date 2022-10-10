@@ -7,7 +7,6 @@ set -g default-terminal "tmux-256color"
 set -sg escape-time 10
 set-option -ga terminal-overrides ",xterm-256color:Tc" 
 ```
-<br>
 
 Restart your tmux server:
 ```
