@@ -12,6 +12,7 @@ set-option -ga terminal-overrides ",xterm-256color:Tc"
 Restart your tmux server:
 ```
 tmux kill-server
+tmux
 ```
 
 Copy and run:
