@@ -25,3 +25,5 @@ sudo cpanm -n Neovim::Ext
 wget https://github.com/Aerbil/neovim-configuration/raw/main/init.vim
 mkdir -p ~/.config/nvim/
 mv init.vim ~/.config/nvim/
+
+rm install-neovim.sh
